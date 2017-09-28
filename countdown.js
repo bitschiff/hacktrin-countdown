@@ -17,10 +17,10 @@ var x = setInterval(function() {
 
   // Display the result in the element with id="demo"
  // document.getElementById("counter").innerHTML = numToBinary(days) + ":" + numToBinary(hours) + ":" + numToBinary(minutes) + ":" + numToBinary(seconds);
- document.getElementById("days").innerHTML = numToBinary(days);
- document.getElementById("hours").innerHTML = numToBinary(hours);
- document.getElementById("mins").innerHTML = numToBinary(minutes);
- document.getElementById("secs").innerHTML = numToBinary(seconds);
+ document.getElementById("days").innerHTML = numToBinary(days,8);
+ document.getElementById("hours").innerHTML = numToBinary(hours,5);
+ document.getElementById("mins").innerHTML = numToBinary(minutes,6);
+ document.getElementById("secs").innerHTML = numToBinary(seconds,6);
 
  var splitters = document.getElementsByClassName("splitter");
  for(i=0;i<splitters.length;i++){
@@ -38,6 +38,6 @@ var x = setInterval(function() {
 
 //document.getElementById("counter").innerHTML = numToBinary(165);
 
-function numToBinary(theNum) {
-	return (theNum >>> 0).toString(2);              
+function numToBinary(theNum,length) {
+	return ("0000000000000000" + theNum.toString(2)).slice(-1*length);
 }

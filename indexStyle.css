@@ -5,12 +5,12 @@ body {
 
 @font-face {
 	font-family: monospace;
-    src: url(fonts/Square.ttf);
+    /*src: url(fonts/Hack-Regular.ttf);*/
 }
 
 h1 {
     color: white;
-    /*font-family: blockyFont;*/
+    font-family: monospace;
     font-size: 700%;
     display: inline-block;
 }
