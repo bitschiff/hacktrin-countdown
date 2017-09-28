@@ -1,0 +1,32 @@
+body {
+    background-color: #000000;
+    text-align: center;
+}
+
+@font-face {
+	font-family: blockyFont;
+    src: url(fonts/Square.ttf);
+}
+
+h1 {
+    color: white;
+    font-family: blockyFont;
+    font-size: 800%;
+    display: inline-block;
+}
+
+#splitter { 
+    color: white;
+}
+#days { 
+    color: blue;
+}
+#hours { 
+    color: red;
+}
+#mins { 
+    color: yellow;
+}
+#secs { 
+    color: green;
+}
