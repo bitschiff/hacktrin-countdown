@@ -1,4 +1,4 @@
-var endDate = new Date("Mar 4, 2018 15:37:25").getTime();
+var endDate = new Date("Mar 4, 2019 15:37:25").getTime();
 
 var x = setInterval(function() {
 	document.getElementById("header").innerHTML = "HackTrin Countdown:";
