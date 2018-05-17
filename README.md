@@ -1,6 +1,6 @@
 # hacktrin-countdown
 
-## [Link](https://bitschiff.github.io/hacktrin-countdown/)
+## [Link](https://elihschiff.github.io/hacktrin-countdown/)
 
 
 This is a test website showing a countdown in binary. The countdown can also be changed to any base by changing the value of "theNum.toString(2))" on line 42 of countdown.js
